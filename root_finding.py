@@ -9,6 +9,10 @@ if __name__ == "__main__":
         print("choose a new interval")
         exit()
 
+    if a > b:
+        a,b = b,a
+
+
     error = 0.0001
 
     i = 1
