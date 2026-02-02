@@ -9,7 +9,7 @@ if __name__ == "__main__":
         print("choose a new interval")
         exit()
 
-    if a > b:
+    if f(a) < 0:
         a,b = b,a
 
 
